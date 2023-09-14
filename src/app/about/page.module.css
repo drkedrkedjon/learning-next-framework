@@ -1,9 +1,15 @@
 .title {
-  color: red;
+  color: powderblue;
+  font-size: 2rem;
 }
 .wrapper {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   align-items: center;
+}
+.linksUser {
+  display: flex;
+  gap: 1rem;
+  margin-top: 3rem;
 }
