@@ -11,7 +11,8 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
+  text-align: center;
 }
 a {
-  color: white;
+  color: yellow;
 }

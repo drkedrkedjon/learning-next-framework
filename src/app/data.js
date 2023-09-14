@@ -1,14 +1,14 @@
 export const data = [
   {
-    id: 1,
+    id: '1',
     name: "Sasa"
   },
   {
-    id: 2,
+    id: '2',
     name: "Sisi"
   },
   {
-    id: 3,
+    id: "3",
     name: "Susu"
   }
 ]
