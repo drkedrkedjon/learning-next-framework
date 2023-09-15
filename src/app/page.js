@@ -2,6 +2,10 @@ import styles from './page.module.css'
 import Link from 'next/link'
 import { data } from './data'
 
+export const metadata = {
+  title: "Learning Next.js - Home page"
+}
+
 export default function Home() {
   return (
     <main className={styles.main}>
