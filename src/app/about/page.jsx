@@ -3,6 +3,11 @@ import Link from "next/link";
 import styles from "./page.module.css";
 import myImage from "@/app/images/equipo.jpg";
 import { users } from "@/app/myNewData.js";
+import Button from "./Button";
+
+export const metadata = {
+  title: "Pendejo Gonzales",
+};
 
 export default function About() {
   return (
@@ -18,6 +23,9 @@ export default function About() {
         ))}
       </div>
       <p className={styles.title}>More dynamic links</p>
+      <p>
+        Color de estado es: <Button />{" "}
+      </p>
     </div>
   );
 }
