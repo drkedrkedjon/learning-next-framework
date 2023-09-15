@@ -24,7 +24,7 @@ export default function About() {
       </div>
       <p className={styles.title}>More dynamic links</p>
       <p>
-        Color de estado es: <Button />{" "}
+        Color de estado es: <Button />
       </p>
     </div>
   );
