@@ -7,6 +7,10 @@ export const metadata = {
 }
 
 export default function Home() {
+
+  const date = new Date().toLocaleString("es-ES")
+
+
   return (
     <main className={styles.main}>
       <h1 className={styles.title}>
@@ -20,6 +24,9 @@ export default function Home() {
             <Link key={item.id} href={`/blog/${item.id}`}>{item.name}</Link>
           ))}
         </div>
+        <p className={styles.date}>
+          {`Creation date is: ${date}`}
+        </p>
       </div>
     </main>
   )
