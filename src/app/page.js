@@ -29,6 +29,9 @@ export default function Home() {
         <br />
         <br />
         <Link className={styles.link} href={"/framer"} >Framer motion page</Link>
+        <br />
+        <br />
+        <Link className={styles.link} href={"/toggle"} >Toggle button...</Link>
       </div>
     </main>
   )
