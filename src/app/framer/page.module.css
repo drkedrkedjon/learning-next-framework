@@ -1,0 +1,32 @@
+.ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: blueviolet;
+}
+.btn {
+  margin: none;
+  padding: 0.7rem 2rem;
+  background-color: greenyellow;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: inherit;
+  transition: scale 0.2s ease-in-out;
+  cursor: pointer;
+}
+.btn:hover {
+  scale: 1.05;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem;
+  border-radius: 0.5rem;
+  border: 1px solid red;
+}
+.h1 {
+  margin-bottom: 4rem;
+  color: antiquewhite;
+}
