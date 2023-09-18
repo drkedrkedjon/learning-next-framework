@@ -1,0 +1,35 @@
+.greenBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: greenyellow;
+  color: black;
+  width: 300px;
+  height: 400px;
+  padding: 2rem;
+  border-radius: 10px;
+  will-change: true;
+}
+
+.greenBox.max {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+
+.btn {
+  border: none;
+  background-color: red;
+  padding: 1rem 3rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+  z-index: 100;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: inherit;
+}
+.btn:hover {
+  scale: 1.05;
+}
