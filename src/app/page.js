@@ -35,6 +35,9 @@ export default function Home() {
         <br />
         <br />
         <Link className={styles.link} href={"/framer-layout"} >Framer Layout...</Link>
+        <br />
+        <br />
+        <Link className={styles.link} href={"/toggle-layout"} >Toogle using Layout...</Link>
       </div>
     </main>
   )

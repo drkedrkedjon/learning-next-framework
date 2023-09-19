@@ -1,0 +1,31 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  padding: 3rem;
+  border-radius: 10px;
+}
+.h1 {
+  color: aquamarine;
+  margin-bottom: 3rem;
+}
+.btn {
+  display: flex;
+  background-color: transparent;
+  border: 3px solid whitesmoke;
+  width: 100px;
+  height: 50px;
+  border-radius: 100px;
+  padding: 6px;
+  cursor: pointer;
+  box-sizing: content-box;
+}
+.ball {
+  display: block;
+  height: 100%;
+  aspect-ratio: 1/1;
+  background-color: yellowgreen;
+  border-radius: 100px;
+}
