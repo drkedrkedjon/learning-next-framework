@@ -9,4 +9,16 @@
 }
 .a {
   text-decoration: none;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.ul li {
+  position: relative;
+}
+.fondo {
+  position: absolute;
+  inset: 0;
+  background-color: #666;
+  border-radius: 10px;
+  z-index: -1;
 }
