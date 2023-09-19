@@ -10,7 +10,7 @@ export default function MyToggle() {
 
   return (
     <div className={styles.wrapper}>
-      <h1 className={styles.h1}>Toggle thingy</h1>
+      <h1 className={styles.h1}>Toggle thingy <br /> Layout animation</h1>
       <button
         style={{
           justifyContent: isOn ? "flex-end" : "flex-start",

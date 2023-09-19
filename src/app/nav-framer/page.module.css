@@ -1,0 +1,12 @@
+.navContainer {
+  border: 1px solid red;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.ul {
+  display: flex;
+  gap: 2rem;
+}
+.a {
+  text-decoration: none;
+}
